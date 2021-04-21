@@ -5,7 +5,7 @@ data:extend(
     name = "fi-table-logo",
     icon = "__FoodIndustry__/graphics/icons/decor/fi-table-logo-icon.png",
     icon_size = 64,
-    flags = {"goes-to-main-inventory"},
+
     subgroup = "food-machines",
     order = "w-a-k",
 	place_result = "fi-table-logo",
@@ -16,7 +16,7 @@ data:extend(
     name = "fi-table-logo-lamp",
     icon = "__FoodIndustry__/graphics/icons/decor/fi-table-logo-lamp-icon.png",
     icon_size = 64,
-    flags = {"goes-to-main-inventory"},
+
     subgroup = "food-machines",
     order = "w-a-l",
 	place_result = "fi-table-logo-lamp",

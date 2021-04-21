@@ -1,11 +1,20 @@
 {
     "name": "FoodIndustry",
-    "version": "0.16.31",
-    "title": "Food Industry",
-    "author": "Villfuk02",
+    "version": "1.8.151",
+    "title": "Food Industry 2 (beta)",
+    "author": "Villfuk02, Oceanel, jonkeda, iida-hayato",
     "contact": "",
-    "homepage": "https://github.com/Oceanel51/Food-Industry",
-    "factorio_version": "0.16",
-    "dependencies": ["base >= 0.16", "?omnimatter_wood", "?alien-biomes"],
-    "description": "This mod adds hunger and ways to produce food. Graphics for composter and basic farm by darkfrei, other farms and mashines by Oceanel51"
+    "homepage": "https://github.com/Oceanel51/FoodIndustry",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1.0",
+                     "stdlib >= 1.4.4",
+                     "? bobmining >= 1.0.0",
+                     "? bobplates >= 1.0.2",
+                     "? cargo-ships >= 0.0.55",
+                     "? alien-biomes",
+                     "? SpaceMod",
+                     "? Krastorio2 >= 1.0.4",
+                     "! IndustrialRevolution",
+                     "! omnimatter_fluid"],
+    "description": "This mod adds hunger and ways to produce foods and drinks. From grown foods can be obtained effect capsules.\nOriginal idea was Villfuk02. Graphics for composter and basic farm by darkfrei, other farms and mashines by Oceanel51.\nNew consumption system invented and implemented by Oceanel51, cattles and some trees ideas by jonkeda. A lot of work with events and functions was done by iida-hayato."
 }

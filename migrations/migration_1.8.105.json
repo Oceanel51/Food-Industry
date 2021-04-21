@@ -1,0 +1,16 @@
+{
+  "recipe":
+  [
+    ["apple-seedling","apple-basic-growth-seedling"],
+    ["orange-seedling","orange-basic-growth-seedling"],
+    ["advanced-apple-seedling","apple-advanced-growth-seedling"],
+    ["advanced-orange-seedling","orange-advanced-growth-seedling"],
+
+    ["crystal","crystal-extraction-stone"],
+    ["crystal-steam","crystal-extraction-steam"]
+  ],
+  "technology":
+  [
+    ["crystal-extraction", "crystal-extraction-1"]
+  ]
+}

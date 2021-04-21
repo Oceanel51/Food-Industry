@@ -38,7 +38,7 @@ data:extend(
         { position = {0, -0.95} },
         { position = {0, 0.95} }
       },
-      filter = "water", "ketchup", "soy-milk", "soy-sauce", "canola-oil",
+      -- set_filter = "water", "pure-water", "ketchup", "soy-milk", "soy-sauce", "canola-oil",
     },
     two_direction_only = true,
     window_bounding_box = {{0.2, -0.39}, {-0.2, 0.075}},
@@ -53,17 +53,17 @@ data:extend(
             priority = "extra-high",
             frames = 2,
             width = 168/2,
-            height = 174,
+            height = 171,
             scale = 0.41,
-            shift = util.by_pixel(-0.4, -17),
+            shift = util.by_pixel(-0.4, -16),
             hr_version =
             {
               filename = "__FoodIndustry__/graphics/entity/storages/hr-fi-fluid-tank.png",
               priority = "extra-high",
               frames = 2,
-              width = 338/2,
-              height = 348,
-              shift = util.by_pixel(-0.4, -17),
+              width = 336/2,
+              height = 340,
+              shift = util.by_pixel(-0.4, -16),
               scale = 0.21
             }
           },
@@ -72,18 +72,18 @@ data:extend(
             priority = "extra-high",
             frames = 2,
             width = 460/2,
-            height = 174,
+            height = 172,
             scale = 0.41,
-            shift = util.by_pixel(30, -16),
+            shift = util.by_pixel(30, -15),
             draw_as_shadow = true,
             hr_version =
             {
               filename = "__FoodIndustry__/graphics/entity/storages/hr-fi-fluid-tank-shadow.png",
               priority = "extra-high",
               frames = 2,
-              width = 922/2,
-              height = 348,
-              shift = util.by_pixel(30, -16),
+              width = 916/2,
+              height = 343,
+              shift = util.by_pixel(30, -15),
               scale = 0.21,
               draw_as_shadow = true
             }

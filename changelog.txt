@@ -1,138 +1,490 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.8.151 (2.0 beta)
+Date: 15.04.2021
+  Fixes:
+    - Compatibility hot fix for Factorio 1.1.0+
+    - Compatibility with Krastorio2's "fertilizer"
+---------------------------------------------------------------------------------------------------
+Version: 1.8.149 (2.0 beta)
+Date: 16.10.2020
+  Features:
+    - Fish scripting redone by jonkeda on https://github.com/Oceanel51/FoodIndustry/pull/42
+    - Changed fish and cattle recipe icons
+  Balances:
+    - Balanced simple-capsule-pure-water
+    - Balanced four simple-food-xxx-capsules
+    - Balanced some fish foods
+  Fixes:
+    - Fixed cattles
+    - Fixed and improved few locales
+---------------------------------------------------------------------------------------------------
+Version: 1.8.146 (2.0 beta)
+Date: 25.09.2020
+  Features:
+    - Added second cooked-fish-meat recipe
+    - Added straw-briquettes
+    - Added compressed-straw-disassemble recipe (this will allow the straw to be stored in bales for later use)
+    - Changed some recipe icons
+  Balances:
+    - Balanced bread and corn-bread
+  Fixes:
+    - Fixed and improved few locales
+---------------------------------------------------------------------------------------------------
+Version: 1.8.143 (2.0 beta)
+Date: 10.09.2020
+  Features:
+    - Changed fish-salad icon and recipe
+  Balances:
+    - Balanced wheat
+    - Balanced bread and corn-bread
+    - Balanced basic-salad and fish-salad
+  Fixes:
+    - Fixed and improved few locales
+---------------------------------------------------------------------------------------------------
+Version: 1.8.141 (2.0 beta)
+Date: 02.09.2020
+  Features:
+    - Added apple-peeled and orange-peeled foods (this will prevent you from clogging up Player inventory with seeds and raw-straw).
+    - Something changed in the mod code, see the github for details (WIP)
+  Balances:
+    - Reduced and balanced apples and oranges food values.
+  Fixes:
+    - Fixed apple and orange subgroup orders
+    - Fixed character modifiers when: Given value has to be larger than or equal to: -1 (WIP)
+---------------------------------------------------------------------------------------------------
+Version: 1.8.139 (2.0 beta)
+Date: 29.06.2020
+  Features:
+    - Added use sound for simple-capsule-pure-water.
+    - Changed fi-tech-eatout-button technology prerequisites
+    - Changed compost icon
+    - Work on functions and gui view of early game "eat-drink-equipment" (WIP).
+  Balances:
+    - Reduced simple and basic capsules stack sizes by half
+  Fixes:
+    - Fixed wild tree entity pictures.layers
+    - Fixed adult trees corpse
+    - Hot fixed crash when use button equipment and "Calculate for player" option are disabled
+    - Hot fixed crash when used deconstruction planner on a tree
+---------------------------------------------------------------------------------------------------
+Version: 1.8.136 (2.0 beta)
+Date: 25.06.2020
+  Features:
+    - Added early game food items: whole-wheat-cookie
+    - Added early game food recipes: whole-wheat-cookie, cooked-biter-meat-early
+    - Changed early game "Eat/Drink" buttons to "eat-drink-equipment", adds buttons on gui, which allow to eat one random food/drink from Player inventory (WIP).
+    - Added early small simple-capsule-pure-water, capacity 20, alternative to flask and water bottles that is used without remnant.
+  Balances:
+    - Balanced some food
+  Fixes:
+    - Fixed and improved few locales
+    - Fixed food values
+    - Fixed "to-substances-2" recipe generation code
+    - Fixed x64 icons for fish recipes
+    - Improved figui functions
+---------------------------------------------------------------------------------------------------
+Version: 1.8.128 (2.0 beta)
+Date: 15.06.2020
+  Features:
+    - Added few "to-substances-1" recipes
+    - New x64 icons for items and recipes
+    - Changed x64 icons for fishes
+    - Added corn-dough and wheat-dough food items, so that food from flour does not require pure-water in the future
+    - Added apple and orange eating sounds
+    - Added stdlib mod dependency: https://mods.factorio.com/mod/stdlib
+  Balances:
+    - Balanced trees recipes
+    - Balanced "tomato-seeds" recipe
+    - Decreased and fixed food-1-capsule fullness
+    - Balanced cattles
+  Fixes:
+    - Hot fix cattles production (!) Attention: need rebuild all "cattle-spawner" and "cattle-grabber" for its working!
+    - Fixed many locales
+    - Fixed "to-substances-1" recipes
+    - Fixed changelog again, not showing ingame
+---------------------------------------------------------------------------------------------------
+Version: 1.8.121 (2.0 beta)
+Date: 06.06.2020
+  Fixes:
+    - Fix young and adult tree locale
+    - Hot fix on_built filters for entity-ghost
+---------------------------------------------------------------------------------------------------
+Version: 1.8.118 (2.0 beta)
+Date: 05.06.2020
+  Features:
+    - Changed some fullnes state icons
+  Fixes:
+    - Fixed young tree locale
+    - Hot fix on_built filters
+---------------------------------------------------------------------------------------------------
+Version: 1.8.115 (2.0 beta)
+Date: 04.06.2020
+  Features:
+    - New recipe pure-water-boiled
+    - New technology meat-grind-processing
+    - New plant - wheat
+    - New eating sounds
+    - Added new locales
+    - New x64 icons for items, recipes and technology
+    - Added "trees-gardener" - counter of landed plants/trees fos statistic and achivements
+    - Added basic growing system for plants/trees: seed -> seedling -> sapling -> young -> adult
+    - Added icons to fullnes state
+  Balances:
+    - Balances for fish recipes
+    - Balances for food
+    - Balances for trees growing time
+  Fixes:
+    - Refactored overeating state
+    - Compatibility hot fix for Factorio 0.18.27
+    - Reorganized some lua files requirements
+    - Deleted old unused migration files
+    - Added event entity filter for plants/trees placement
+---------------------------------------------------------------------------------------------------
+Version: 1.8.105 (2.0 beta)
+Date: 14.04.2020
+  Features:
+    - New fish generator code by iida-hayato
+    - Added label of effects values to GUI (not finished)
+    - Changed some decorations in EN locale (not finished)
+    - Added some food locales
+    - New pure-water and soy-milk icons
+  Balances:
+    - Balances for fruit trees
+    - Balances for all fish
+  Fixes:
+    - Refactored and fixed effects code
+    - Refactored nutrients bonus
+    - Initial compatibility for "IndustrialRevolution" mod does not work again!
+    - Compatibility hot fix for Space Exploration mods, when there is no player character in game.
+    - Fixed food-picker (not finished)
+    - Fixed recipes for growing trees
+    - Fix GUI when no character mode
+---------------------------------------------------------------------------------------------------
+Version: 1.8.89 (2.0 beta)
+Date: 15.09.2019
+  Fixes:
+    - Initial compatibility for "IndustrialRevolution" mod by Villfuk02
+---------------------------------------------------------------------------------------------------
+Version: 1.8.87 (2.0 beta)
+Date: 30.08.2019
+  Features:
+    - Added some cattle and fish locales
+  Balances:
+    - Change cattle-spawner do not reduce pollution
+    - Provisional balancing resources for cattle and cattle fence
+  Fixes:
+    - Some critical fixes for multiplayer (thanks to github.com/iida-hayato)
+---------------------------------------------------------------------------------------------------
+Version: 1.8.81 (2.0 beta)
+Date: 27.08.2019
+  Fixes:
+    - Compatibility fix for multiplayer by github.com/iida-hayato
+    - Compatibility fix for "Space Exploration" mod (thanks to github.com/iida-hayato)
+---------------------------------------------------------------------------------------------------
+Version: 1.8.70 (2.0 beta)
+Date: 04.05.2019
+  Balances:
+    - Added 22 wood when "fi-basic-farmland" is mined
+    - Balanced and updated some food values
+  Fixes:
+    - Compatibility fix for character name changes in 0.17.35
+---------------------------------------------------------------------------------------------------
+Version: 1.8.68 (2.0 beta)
+Date: 19.04.2019
+  Features:
+    - Added and changed some eat sounds
+    - Changed sounds for burner-cooker and electric-cooker
+    - Added Fat sprites and description to GUI
+    - Added food and drink fill levels sprites to GUI
+    - Remaded GUI
+    - Added technology "nutrient-extraction-2" with its recipes.
+  Balances:
+    - Changed reduction ratio for substance "F" from 1 to 0.8, rest "VMC" is 1.
+    - Balanced and updated some food values
+    - Remaded and balanced fishing technologies.
+    - Balanced trees: health, minable and recipes results
+  Fixes:
+    - More than 180% you can not Overeat!
+    - Changed "off_when_no_fluid_recipe = true" for burner-cooker and electric-cooker
+    - Added allow_decomposition to "crystal" recipe
+    - Changed "emissions" to "emissions_per_minute" for some entities
+    - Impruved apple and orange tree sprites, changed trees mining_time
+---------------------------------------------------------------------------------------------------
+Version: 1.8.60 (2.0 beta preview)
+Date: 26.03.2019
+  Features:
+    - Added orange-juice
+    - Added thumbnail.png (for beta)
+  Balances:
+    - Changed Basic capsules recipes and category
+  Fixes:
+    - Added incompatible dependency for omnimatter_fluid to info.json
+    - Small fixes
+---------------------------------------------------------------------------------------------------
+Version: 1.8.59 (2.0 beta preview)
+Date: 25.03.2019
+  Fixes:
+    - Maded compatible with Factorio 0.17.12 - attribute "pollution_absorbtion..." changed to "pollution_absorption..."
+    - Fixed errors when Player respawns https://mods.factorio.com/mod/FoodIndustry/discussion/5c8cb1ffdca4f4000d7c98b2
+    - Fixed changelog, not showing ingame
+  Balances:
+    - Changed recipe categories for some food pills
+    - Increased crafting time for food pills recipes
+    - Changed recipe categories for some Nutrients capsules
+---------------------------------------------------------------------------------------------------
+Version: 1.8.58 (2.0 beta preview)
+Date: 14.03.2019
+  Features:
+    - Restructured mod, I would call this version 2.0, but it is still under development.
+    - Remaked Fullness system: now it's like a stomach in the human body, You put the food and its digestion takes place in turns.
+    - Added new type of capsule: "digestion"
+    - Added "Overeating" and "Fat" effect.
+    - Added "Drinks" consumption system and some basic fluids - "pure-water" with:
+    - - flask-pure-water,
+    - - plastic-bottle-pure-water.
+    - Added "Thirst" effect. This is not exactly the thirst we know ;)
+    - Implemented bonus effects values to add and remove from game modifiers instead of overwriting.
+    - Added Energy usage when Player is:
+    - - crafting (factor=1.5 + 0.02 for each item in the craft queue);
+    - Added other many things: items, recipes, trees and resource.
+    - Remaded some plants, foods sprites and icons.
+  Fixes:
+    - Improved and rerendered sprites for: fi-mashines-propeller1, fi-mashines-propeller2, fi-mashines-propeller3.
+    - Corrected food values in localization files
+    - Supplemented en, ru localization files.
+  Balances:
+    - Reduced basic Energy consumption for -10%.
+    - Increased results for crop raw recipes four times, that helps on early game.
+    - Decreased all food values of Energy, Drinks, Substances about 20%-30%.
+    - Balanced many recipes and food values.
+---------------------------------------------------------------------------------------------------
 Version: 0.16.31
 Date: 22.12.2018
-	Added new item: fi-fluid-tank
-	Add new technology: fi-tech-more-energy (5 tiers) with some item bonuses. Basicaly adds 100 Energy for Player character, then research up to 500.
-	Added Energy usage when Player is:
-	 - mining (factor=1.2, increase when equiped mining-tool);
-	 - driving (factor=0.4, always constant);
-	 - picking (factor=1.4, increase when equiped armor and its durability, also equipment in grid);
-	 - repairing (factor=1.6, increase when equiped armor and its durability, also equipment in grid).
-	Changed when Player is created/joined, in his inventory additionally insert: crafting-capsule=2, speed-capsule=2, mining-capsule=2. That helps on early game.
-	Mirrored capsules icon for best view expirience
-	Improved and rerendered sprites for fi-table-logo-lamp and fi-table-logo
-	Added new sprite for fi-table-logo-lamp light effect
-	Changed to get the recipe fi-table-logo-lamp need to research "optics" technology
-	Improved icon for fi-incubator
-	Improved icon for food-science-pack
-	Changed some technology icons
-	Changed recipe burner-cooker: results = 1 (old value 2).
-	Added more yellow to corn-seeds sprite
-	Added more springgreen to lettuce item sprite
-	Added localization keys for some GUI labels. If UI looks somehow wrong, can use the command: /c game.player.gui.left.frame.destroy()
-	Added localization keys for some print messages.
-	Added sound effect when use food-capsules
-	Fixed some bugs
+  Features:
+    - Added new item: fi-fluid-tank, storage for food fluids.
+    - Added new technology: fi-tech-more-energy (5 tiers) with some item bonuses. Basicaly adds 100 Energy for Player character, then research up to 500.
+    - Added Energy usage when Player is:
+    - - mining (factor=1.2, increase when equiped mining-tool);
+    - - driving (factor=0.4, always constant);
+    - - picking (factor=1.4, increase when equiped armor and its durability, also equipment in grid);
+    - - repairing (factor=1.6, increase when equiped armor and its durability, also equipment in grid).
+    - Added new sprite for fi-table-logo-lamp light effect
+    - Added localization keys for some GUI labels. If UI looks somehow wrong, can use the command: /c game.player.gui.left.frame.destroy()
+    - Added localization keys for some print messages.
+    - Added sound effect when use food-capsules
+  Balances:
+    - Changed when Player is created/joined, in his inventory additionally insert: crafting-capsule=2, speed-capsule=2, mining-capsule=2. That helps on early game.
+    - Changed recipe burner-cooker: results = 1 (old value 2).
+  Fixes:
+    - Changed to get the recipe fi-table-logo-lamp need to research "optics" technology
+    - Improved and rerendered sprites for fi-table-logo-lamp and fi-table-logo
+    - Mirrored capsules icon for best view expirience
+    - Improved icon for fi-incubator
+    - Improved icon for food-science-pack
+    - Changed some technology icons
+    - Added more yellow to corn-seeds sprite
+    - Added more springgreen to lettuce item sprite
+    - Fixed some bugs
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.30
 Date: 05.11.2018
-	Added new graphics for entity: fi-incubator
-	Added glow for fi-incubator
-	Changed scales of fi-mashines-propeller1
-	Added new sprite fi-mashines-propeller2 (for fi-incubator)
-	Added new sprite fi-mashines-propeller3 (for fi-electric-composter)
-	Fixed bugs
+  Features:
+    - Added new graphics for entity: fi-incubator
+    - Added glow for fi-incubator
+    - Added new sprite fi-mashines-propeller2 (for fi-incubator)
+    - Added new sprite fi-mashines-propeller3 (for fi-electric-composter)
+  Fixes:
+    - Changed scale of fi-mashines-propeller1
+    - Fixed bugs
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.29
 Date: 26.10.2018
-	New FI logo (discussions and suggestions are welcome in https://mods.factorio.com/mod/FoodIndustry/discussion or in https://github.com/Oceanel51/Food-Industry/issues)
-	Added new graphics for entity: fi-electric-composter, fi-greenhouse, fi-big-greenhouse, fi-incubator (prototype)
-	Added simple animation to fi-basic-farmland
-	Added new item:
-	- FI Logo Table (fi-logo-table), just decor
-	- FI Logo Lamp (fi-logo-table-lamp), decor and light, support vanila colors
-	Added fi-table-wood1 of "FI logo" on fi-composter and fi-basic-farmland
-	Added smoke and stone-furnace-fire animations for burner-cooker
-	Added electric-furnace-heater scale 0.7 and light glowing for electric-cooker
-	Compressed all graphics (17,0 > 3,57 Mb) via https://forums.factorio.com/viewtopic.php?f=70&t=30591#p250171
-	Changed technology name electric-composter to electric-composting
-	Ballanced drain energy for farms
-	Added emissions: fi-greenhouse -6PU, fi-big-greenhouse -14PU, fi-incubator -20PU
-	Fixed some bugs
-	Added changelog into mod directory
+  Features:
+    - New FI logo (discussions and suggestions are welcome in https://mods.factorio.com/mod/FoodIndustry/discussion or in https://github.com/Oceanel51/Food-Industry/issues)
+    - Added new graphics for entity: fi-electric-composter, fi-greenhouse, fi-big-greenhouse, fi-incubator (prototype)
+    - Added simple animation to fi-basic-farmland
+    - Added new item:
+    - - FI Logo Table (fi-logo-table), just decor
+    - - FI Logo Lamp (fi-logo-table-lamp), decor and light, support vanila colors
+    - Added fi-table-wood1 of "FI logo" on fi-composter and fi-basic-farmland
+    - Added smoke and stone-furnace-fire animations for burner-cooker
+    - Added electric-furnace-heater scale 0.7 and light glowing for electric-cooker
+    - Added emissions: fi-greenhouse -6PU, fi-big-greenhouse -14PU, fi-incubator -20PU
+  Balances:
+    - Ballanced drain energy for farms
+  Fixes:
+    - Compressed all graphics (17,0 > 3,57 Mb) via https://forums.factorio.com/viewtopic.php?f=70&t=30591#p250171
+    - Changed technology name electric-composter to electric-composting
+    - Fixed some bugs
+    - Added changelog into mod directory
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.28
 Date: 04.10.2018
-	Added compost as fuel to fi-basic-farmland
-	Fixed names: fi-basic-farmland, fi-greenhouse, fi-big-greenhouse, fi-incubator
-	More green
+  Features:
+    - Added compost as fuel to fi-basic-farmland
+  Fixes:
+    - Fixed names: fi-basic-farmland, fi-greenhouse, fi-big-greenhouse, fi-incubator
+    - More green
 ---------------------------------------------------------------------------------------------------
-0.16.27
-	Added RU localisation by Oceanello
-	Decreased power consumption for greenhouses
-0.16.26
-	Fixed compatability with angel's bio industries composter
-0.16.25
-	Fixed some bugs
-0.16.24
-	Fixed some bugs
-	Made canola oil cheaper
-0.16.23
-	Food consumption balancing -> 2.5x less when standing and running, 1.47x more when running with full power armor mk2
-	Added settings for armor and slot energy increase
-	Changed durability of light armor from 1000 to 2000
-0.16.22
-	Removed slowness and suicide capsules
-	More bugfixing
-0.16.21
-	More bugfixing (I hope)
-0.16.20
-	Now compatible with alien-biomes-hr-terrain
-0.16.19
-	Fixed some multiplayer bugs
-	Rebalanced capsules
-0.16.18
-	Tons of small fixes
-	Now it's possible to refuel basic farms with landfill
-	Added 10 effect capsules
-	Redone GUI
-0.16.17
-	Removad productivity from plant growing to prevent inconsistencies
-0.16.16
-	Changed farm/greenhouse/incubator entity type from furnace to assembliong-machine to fix a lot issues
-	Nerfed fertilizer oil cracking
-0.16.15
-	Fixed burgers and food capsules not being craftable
-0.16.14
-	Fixed Omniwood replacing wild plant drops with omniwood
-0.16.13
-	Redone plant generation so it no longer depends on biome and should be more reliable
-	Fixed world generation settings
-0.16.12
-	~ Added new item: Rapeseed! ~
-	Few achievement tweaks and added 2 more
-0.16.11
-	Fixed some potential compatability issues
-	Changed infinite research cycle count formula
-0.16.10
-	Fixed food energy efficiency research
-	Rebalanced food energy efficiency research
-0.16.9
-	Fixed a bug that computing the energy usage crashed the game when in multiplayer
-0.16.8
-	Fixed the bug
-0.16.7
-	Redone energy and fullness calculation
-	Added increased food consumption when running
-	Contains a bug which makes the game unplayable
-0.16.6
-	Fixed some issues in lang file
-	Fixed a bug causing the GUI values to be rendered for the wrong player in multiplayer
-0.16.5
-	Fixed a bug, which caused productivity modules to be unusable for oil refining and sulfuric acid
-	Added wild plant generation settings when creating a new world
-	Wild plants are now visible on map
-	Balancing
-0.16.4
-	Added experimental biter flesh removal
-0.16.3
-	Minor food balancing
-	Fixed crafting recipe for food science pack
-0.16.2
-	Some fixes
-0.16.1
-	reworked biter meat drops
-	GUI is on deault at the top
-	added fish back into world, but made them not edible
-0.16.0
-	initial upload
+Version: 0.16.27
+Date: 20.06.2018
+  Changes:
+    - Added RU localisation by Oceanello
+    - Decreased power consumption for greenhouses
+---------------------------------------------------------------------------------------------------
+Version: 0.16.26
+Date: 16.06.2018
+  Changes:
+    - Fixed compatability with angel's bio industries composter
+---------------------------------------------------------------------------------------------------
+Version: 0.16.25
+Date: 15.06.2018
+  Changes:
+    - Fixed some bugs
+---------------------------------------------------------------------------------------------------
+Version: 0.16.24
+Date: 11.06.2018
+  Changes:
+    - Fixed some bugs
+    - Made canola oil cheaper
+---------------------------------------------------------------------------------------------------
+Version: 0.16.23
+Date: 10.06.2018
+  Changes:
+    - Food consumption balancing -> 2.5x less when standing and running, 1.47x more when running with full power armor mk2
+    - Added settings for armor and slot energy increase
+    - Changed durability of light armor from 1000 to 2000
+---------------------------------------------------------------------------------------------------
+Version: 0.16.22
+Date: 10.06.2018
+  Changes:
+    - Removed slowness and suicide capsules
+    - More bugfixing
+---------------------------------------------------------------------------------------------------
+Version: 0.16.21
+Date: 10.06.2018
+  Changes:
+    - More bugfixing (I hope)
+---------------------------------------------------------------------------------------------------
+Version: 0.16.20
+Date: 10.06.2018
+  Changes:
+    - Now compatible with alien-biomes-hr-terrain
+---------------------------------------------------------------------------------------------------
+Version: 0.16.19
+Date: 10.06.2018
+  Changes:
+    - Fixed some multiplayer bugs
+    - Rebalanced capsules
+---------------------------------------------------------------------------------------------------
+Version: 0.16.18
+Date: 09.06.2018
+  Changes:
+    - Tons of small fixes
+    - Now it's possible to refuel basic farms with landfill
+    - Added 10 effect capsules
+    - Redone GUI
+---------------------------------------------------------------------------------------------------
+Version: 0.16.17
+Date: 08.06.2018
+  Changes:
+    - Removad productivity from plant growing to prevent inconsistencies
+---------------------------------------------------------------------------------------------------
+Version: 0.16.16
+Date: 07.06.2018
+  Changes:
+    - Changed farm/greenhouse/incubator entity type from furnace to assembliong-machine to fix a lot issues
+    - Nerfed fertilizer oil cracking
+---------------------------------------------------------------------------------------------------
+Version: 0.16.15
+Date: 07.06.2018
+  Changes:
+    - Fixed burgers and food capsules not being craftable
+---------------------------------------------------------------------------------------------------
+Version: 0.16.14
+Date: 07.06.2018
+  Changes:
+    - Fixed Omniwood replacing wild plant drops with omniwood
+---------------------------------------------------------------------------------------------------
+Version: 0.16.13
+Date: 07.06.2018
+  Changes:
+    - Redone plant generation so it no longer depends on biome and should be more reliable
+    - Fixed world generation settings
+---------------------------------------------------------------------------------------------------
+Version: 0.16.12
+Date: 03.06.2018
+  Changes:
+    - ~ Added new item: Rapeseed! ~
+    - Few achievement tweaks and added 2 more
+---------------------------------------------------------------------------------------------------
+Version: 0.16.11
+Date: 02.06.2018
+  Changes:
+    - Fixed some potential compatability issues
+    - Changed infinite research cycle count formula
+---------------------------------------------------------------------------------------------------
+Version: 0.16.10
+Date: 01.06.2018
+  Changes:
+    - Fixed food energy efficiency research
+    - Rebalanced food energy efficiency research
+---------------------------------------------------------------------------------------------------
+Version: 0.16.9
+Date: 01.06.2018
+  Changes:
+    - Fixed a bug that computing the energy usage crashed the game when in multiplayer
+---------------------------------------------------------------------------------------------------
+Version: 0.16.8
+Date: 31.05.2018
+  Changes:
+    - Fixed the bug
+---------------------------------------------------------------------------------------------------
+Version: 0.16.7
+Date: 31.05.2018
+  Changes:
+    - Redone energy and fullness calculation
+    - Added increased food consumption when running
+    - Contains a bug which makes the game unplayable
+---------------------------------------------------------------------------------------------------
+Version: 0.16.6
+Date: 31.05.2018
+  Changes:
+    - Fixed some issues in lang file
+    - Fixed a bug causing the GUI values to be rendered for the wrong player in multiplayer
+---------------------------------------------------------------------------------------------------
+Version: 0.16.5
+Date: 29.05.2018
+  Changes:
+    - Fixed a bug, which caused productivity modules to be unusable for oil refining and sulfuric acid
+    - Added wild plant generation settings when creating a new world
+    - Wild plants are now visible on map
+    - Balancing
+---------------------------------------------------------------------------------------------------
+Version: 0.16.4
+Date: 28.05.2018
+  Changes:
+    - Added experimental biter flesh removal
+---------------------------------------------------------------------------------------------------
+Version: 0.16.3
+Date: 27.05.2018
+  Changes:
+    - Minor food balancing
+    - Fixed crafting recipe for food science pack
+---------------------------------------------------------------------------------------------------
+Version: 0.16.2
+Date: 27.05.2018
+  Changes:
+    - Some fixes
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+Date: 27.05.2018
+  Changes:
+    - reworked biter meat drops
+    - GUI is on deault at the top
+    - added fish back into world, but made them not edible
+---------------------------------------------------------------------------------------------------
+Version: 0.16.0
+Date: 26.05.2018
+  Changes:
+    - initial upload

@@ -169,6 +169,53 @@ data:extend({
                 scale = 0.45
               }
             },
+			---------------------------
+           --[[{
+              filename = "__base__/graphics/entity/small-lamp/lamp-light.png",
+              priority = "high",
+              width = 46,
+              height = 40,
+              frame_count = 1,
+              axially_symmetrical = false,
+              direction_count = 1,
+              shift = util.by_pixel(-4, -22.4),
+              scale = 0.8,
+              tint = {r=1.0,g=1.0,b=0.2,a=0.6},
+              hr_version = {
+                filename = "__base__/graphics/entity/small-lamp/hr-lamp-light.png",
+                priority = "high",
+                width = 90,
+                height = 78,
+                frame_count = 1,
+                axially_symmetrical = false,
+                direction_count = 1,
+                shift = util.by_pixel(-4, -22.4),
+                scale = 0.8
+              }
+            },
+            {
+              filename = "__base__/graphics/entity/small-lamp/lamp-light.png",
+              priority = "high",
+              width = 46,
+              height = 40,
+              frame_count = 1,
+              axially_symmetrical = false,
+              direction_count = 1,
+              shift = util.by_pixel(6, -19.4),
+              tint = {r=1.0,g=1.0,b=0.2,a=0.5},
+              scale = 0.35,
+              hr_version = {
+                filename = "__base__/graphics/entity/small-lamp/hr-lamp-light.png",
+                priority = "high",
+                width = 90,
+                height = 78,
+                frame_count = 1,
+                axially_symmetrical = false,
+                direction_count = 1,
+                shift = util.by_pixel(6, -19.4),
+                scale = 0.5
+              }
+            }]]
 		  }
 		},
 		signal_to_color_mapping =

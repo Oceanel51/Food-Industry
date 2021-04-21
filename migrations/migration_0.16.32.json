@@ -1,0 +1,28 @@
+{
+  "capsule":
+  [
+    ["long-reach-capsule", "advanced-long-reach-capsule"],
+    ["speed-capsule", "advanced-speed-capsule"],
+    ["crafting-capsule", "advanced-crafting-capsule"],
+    ["mining-capsule", "advanced-mining-capsule"]
+  ],
+  "recipe":
+  [
+    ["compost-raw-straw","compost-auto-raw-straw"],
+    ["compost-straw","compost-auto-straw"],
+    ["compost-compressed-straw","compost-auto-compressed-straw"],
+    ["compost-lettuce","compost-auto-lettuce"],
+    ["compost-cucumber","compost-auto-cucumber"],
+    ["compost-tomato","compost-auto-tomato"],
+    ["compost-potato","compost-auto-potato"],
+    ["compost-corn","compost-auto-corn"],
+    ["compost-soy","compost-auto-soy"],
+    ["compost-rapeseed","compost-auto-rapeseed"],
+    
+    ["compost-1","compost-raw-straw"]
+  ],
+  "technology":
+  [
+    ["effect-capsules", "effect-capsules-2"]
+  ]
+}
